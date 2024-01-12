@@ -1,8 +1,42 @@
-.game {
+:root {
+    --color: #535353;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: var(--color)
+}
+
+.wrapper {
     width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.game {
     height: 200px;
     border: 1px solid black;
-    margin: 0 auto;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 40px;
+}
+
+#gameOver {
+    letter-spacing: 1rem;
+}
+
+#time {
+    letter-spacing: 0.2rem;
+    font-size: 1rem;
+    text-align: right;
+    margin-right: 20px;
 }
 
 #dino {
@@ -62,4 +96,15 @@
     100% {
         left: -20px;
     }
+}
+
+.copyright {
+    font-size: 0.8rem;
+    color: var(--color);
+    margin-top: 30px;
+    display: block;
+}
+
+.copyright a {
+    color: var(--color);
 }

@@ -4,21 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chrome Game Dinosaur JavaScript</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Chrome Dinosaur Game</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <!-- https://www.youtube.com/watch?v=i7nIutSLvdU&ab_channel=Keepcoding -->
+    <!-- https://chromedino.com/ -->
 
-    <div class="game">
-        <div id="dino"></div>
-        <div id="cactus"></div>
+
+    <div class="wrapper">
+        <h1>Chrome Dinosaur Game</h1>
+        <p>This is a replica of the Chrome dinosaur game with the aim of practicing the development of HTML, CSS and JS
+            code.</p>
+
+        <div class="game">
+            <div>
+                <h2 id="time">000001</h2>
+                <h3 id="gameOver">Game Over</h3>
+            </div>
+            <div id="cloud"></div>
+            <div id="dino"></div>
+            <div id="cactus"></div>
+        </div>
+
+        <span class="copyright">@2024 - <a target="_blank" href="http://jaquelinepeixer.com/">Jaqueline Peixer</a></span>
+
     </div>
-    
-    <script src="script.js"></script>
+
+
+
+    <!-- <script src="script.js"></script> -->
 </body>
 
 </html>

@@ -1,5 +1,9 @@
 const dino = document.getElementById("dino");
 const cactus = document.getElementById("cactus");
+const time = document.getElementById("time");
+
+// exibir o tempo de duração
+//start
 
 function jump() {
     if (dino.classList != "jump") {
@@ -23,8 +27,6 @@ let isAlive = setInterval(function () {
         // collision
         alert("Gamer Over!")
     }
-
-
 }, 10)
 
 document.addEventListener("keydown", function (event) {
