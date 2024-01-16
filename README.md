@@ -1,4 +1,4 @@
-![](./video-dino-chrome.wmv)
+![](./screenshot-chrome-dino.png)
 
 <h2>Chrome Game Dinosaur JavaScript</h2>
 
