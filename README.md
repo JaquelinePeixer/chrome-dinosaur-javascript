@@ -1,7 +1,4 @@
-# chrome-dinosaur-javascript
-
-
-![](./screen-accuweather-ionic.png)
+![](./video-dino-chrome.wmv)
 
 <h2>Chrome Game Dinosaur JavaScript</h2>
 

@@ -51,6 +51,7 @@ h1 {
     background-size: 50px 50px;
     position: relative;
     top: 93px;
+    left: 20px;
 }
 
 .jump {
@@ -59,7 +60,7 @@ h1 {
 
 @keyframes jump {
     0% {
-        top: 93px
+        top: 93px;
     }
 
     30% {
@@ -85,14 +86,12 @@ h1 {
     position: relative;
     top: 54px;
     left: 570px;
-
     background-image: url(img/cactus.png);
     background-size: 20px 40px;
-
 }
 
 .animationCactus {
-    animation: block 1.2s infinite;
+    animation: block 2s infinite;
 }
 
 @keyframes block {

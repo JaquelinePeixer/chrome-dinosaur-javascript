@@ -11,20 +11,17 @@ function jump() {
 
         setTimeout(function () {
             dino.classList.remove("jump");
-        }, 300);
+        }, 700);
     }
 }
 
 let isAlive = setInterval(function () {
-    // get current dino Y position
     let dinoTop = parseInt(window.getComputedStyle(dino).getPropertyValue("top"));
-
-    // get current cactus X position
     let cactusLeft = parseInt(window.getComputedStyle(cactus).getPropertyValue("left"));
 
     //detect collision
-    if (cactusLeft < 50 && cactusLeft > 0 && dinoTop >= 50) {
-        // collision
+    if (cactusLeft < 60 && cactusLeft > 20 && dinoTop >= 45) {
+        alert("Gamer Over");
         gameOver.classList.add("visible");
         inicial();
     }
